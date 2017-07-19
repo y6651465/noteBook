@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title> 회원 가입</title>
+</head>
+    <body>
+        <form action="/board/write" method="POST">
+           제목<input type="text" name='title'><br>
+           글쓴이<input type="text" name='id' readonly><br>
+           내용<textarea rows="4" name='content' cols="40"></textarea><br>
+               <input type="submit" value="등록"><input type="button" name='cnl' value="취소">
+        </form>
+        <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+        <script>
+            $('cnl').click(function() {
+                location.href = '/board/list'
+            });
+        </script>
+    </body>
+</html>
