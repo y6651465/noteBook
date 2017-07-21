@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:text="버튼입니다."
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
+
+    <!--
+    wrap_content : 내용물에 맞추어서 뷰의 크기를 지정
+    -->
+    <Button
+    android:text="버튼입니다."
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <!--
+    match_parent : 부모 영역을 전부 다 채운다.
+
+    <Button
+    android:text="버튼입니다."
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    -->
+
+</LinearLayout>
